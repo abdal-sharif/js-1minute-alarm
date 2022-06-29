@@ -7,7 +7,7 @@ let time = startminutes * 60;
 
 const countdownel = document.getElementById('clock');
 
-setInterval(updatecountdown,1000);
+setInterval(updatecountdown,100);
 
 function updatecountdown(){
     const minutes = Math.floor(time / 60);
@@ -20,7 +20,7 @@ function updatecountdown(){
     time =time<0?'0':time;
     if (second ===1){
         alarmaudio.play();
-        document.querySelector('body').style.backgroundColor='(rgb(240, 6, 6),rgba(187, 5, 5, 0.582), rgba(228, 0, 0, 0.144)';
+        document.querySelector('.clock').style.backgroundColor='red';
         // document.querySelector('body').style.opacity='0.3';
         
     }
