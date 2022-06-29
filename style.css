@@ -42,7 +42,7 @@ body{
 
 .me h4{
  
-    font-family:cursive;
+    font-family:sans-serif;
 
 }
 
@@ -59,7 +59,7 @@ body{
 
 .clock{
     position: relative;
-    font-family:cursive;
+    font-family:sans-serif;
     text-align: center;
     background-color:rgba(211, 211, 211, 0.822);
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.548);
